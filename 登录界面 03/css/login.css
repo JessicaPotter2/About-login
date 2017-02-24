@@ -1,0 +1,38 @@
+.logo a{background: url(../img/logo1.png) no-repeat;display: inline-block;width: 84px;height: 23px;z-index: 2;}
+.logo-text h1{font-family:"Microsoft Yahei" ;font-weight:bold;font-size: 30px;}
+.fl{float: left;}
+.logo{margin-right: 20px;}
+.logo-text{margin-top: -25px;}
+.header{clear:both;margin-top: 30px;height:40px;line-height: 40px;margin-left: 5%;}
+.line{width: 90%;border-top: 1px solid #f8f8f8;border-bottom: 1px solid rgba(0,0,0,0.2);margin-top: 5px;}
+ul.intro-buttons li{display: inline-block;margin-right: 50px;}
+@media(max-width:767px){
+	.buttons{padding-bottom: 15%;}
+	ul.intro-buttons>li{display: block;margin-bottom: 20px;padding: 0;}
+	ul.intro-buttons>li:last-child{margin-bottom: 0;}
+	.line{width: 100%;}
+}
+a.btn {
+  display: inline-block;
+  color: #000;
+  border: 2px outset rgba(0, 0, 0, 0.9);
+  background: #C0C0C0;
+  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+
+a.btn:hover {
+	color: #fff;
+  border: 2px outset #000;
+  background:#000;
+  transform:scale(1.1);
+  transition: 0.2s;
+  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  letter-spacing: 2px;
+}
+.content{height: 600px;padding-bottom: 50px;text-align: center;background: #fff;}
+.buttons{position: relative;padding-top:20px;padding-bottom:30px;margin-top: 40px;}
+.bg-image img{width: 820px;height: 416px;display: block;margin:20px auto;}

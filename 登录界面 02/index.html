@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>数据铁笼</title>
+<meta name="keywords" content="贵阳，大数据，工信委，数据铁笼，登录页面" />
+<meta name="description" content="数据铁笼系统登录" />
+<meta charset="utf-8">
+<link href="css/login.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+</head>
+<body>
+<div class="headerBar">
+  <div class="logoBar login_logo">
+    <div class="comWidth">
+      <div class="logo fl">
+        <a href="#"><img src="images/logo1.png" alt="数据铁笼"></a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wrap">
+  <div class="banner-show" id="js_ban_content">
+    <div class="cell bns-01">
+      <div class="con"> </div>
+    </div>
+    <div class="cell bns-02" style="display:none;">
+      <div class="con"></div>
+    </div>
+    <div class="cell bns-03" style="display:none;">
+      <div class="con"></div>
+    </div>
+  </div>
+  <div class="banner-control" id="js_ban_button_box"> <a href="javascript:;" class="left">左</a> <a href="javascript:;" class="right">右</a> </div>
+  <script type="text/javascript">
+                ;(function(){
+                    
+                    var defaultInd = 0;
+                    var list = $('#js_ban_content').children();
+                    var count = 0;
+                    var change = function(newInd, callback){
+                        if(count) return;
+                        count = 2;
+                        $(list[defaultInd]).fadeOut(400, function(){
+                            count--;
+                            if(count <= 0){
+                                if(start.timer) window.clearTimeout(start.timer);
+                                callback && callback();
+                            }
+                        });
+                        $(list[newInd]).fadeIn(400, function(){
+                            defaultInd = newInd;
+                            count--;
+                            if(count <= 0){
+                                if(start.timer) window.clearTimeout(start.timer);
+                                callback && callback();
+                            }
+                        });
+                    }
+                    
+                    var next = function(callback){
+                        var newInd = defaultInd + 1;
+                        if(newInd >= list.length){
+                            newInd = 0;
+                        }
+                        change(newInd, callback);
+                    }
+                    
+                    var start = function(){
+                        if(start.timer) window.clearTimeout(start.timer);
+                        start.timer = window.setTimeout(function(){
+                            next(function(){
+                                start();
+                            });
+                        }, 8000);
+                    }
+                    
+                    start();
+                    
+                    $('#js_ban_button_box').on('click', 'a', function(){
+                        var btn = $(this);
+                        if(btn.hasClass('right')){
+                            //next
+                            next(function(){
+                                start();
+                            });
+                        }
+                        else{
+                            //prev
+                            var newInd = defaultInd - 1;
+                            if(newInd < 0){
+                                newInd = list.length - 1;
+                            }
+                            change(newInd, function(){
+                                start();
+                            });
+                        }
+                        return false;
+                    });
+                    
+                })();
+            </script>
+  <div class="container">
+    <div class="login">
+    <div class="header">
+    <h2>登 录</h2>
+    </div>  
+    <div class="web_qr_login" id="web_qr_login" style="display: block; height: 235px;">    
+
+            <!--登录-->
+            <div class="web_login" id="web_login">
+               <div class="login-box">
+      <div class="login_form">
+        <form action="#" name="loginform" accept-charset="utf-8" id="login_form" class="loginForm" method="post"><input type="hidden" name="did" value="0"/>
+               <input type="hidden" name="to" value="log"/>
+                <div class="uinArea" id="uinArea">
+                    <input type="text" id="u" name="username" class="inputstyle" placeholder="用户名"/>
+                </div>
+                <div class="pwdArea" id="pwdArea">
+                    <input type="password" id="p" name="p" class="inputstyle" placeholder="密码"/>
+                </div>
+               
+                <div style="margin-top:20px;"><input type="submit" value="登 录"  class="button_blue"/></div>
+              </form>
+           </div>
+           
+              </div>
+               
+            </div>
+            <!--登录end-->
+  </div>
+</div>
+</div>
+</div>
+</body>
+</html>
