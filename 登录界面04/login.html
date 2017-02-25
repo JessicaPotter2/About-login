@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+
+  <meta charset="utf-8">
+
+  <title>登录界面</title>
+
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela+Round">
+  <link rel="stylesheet" type="text/css" href="http://weloveiconfonts.com/api/?family=fontawesome">
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+
+  <div id="login">
+
+    <h2><span class="fontawesome-lock"></span>登 录</h2>
+
+    <form action="javascript:void(0);" method="POST">
+
+      <fieldset>
+
+        <p><label for="username">用户名</label></p>
+        <p><input type="text" id="username" value="请输入用户名" onBlur="if(this.value=='')this.value='请输入用户名'" onFocus="if(this.value=='请输入用户名')this.value=''"></p> <!-- JS because of IE support; better: placeholder="mail@address.com" -->
+
+        <p><label for="password">密码</label></p>
+        <p><input type="password" id="password" value="password" onBlur="if(this.value=='')this.value='password'" onFocus="if(this.value=='password')this.value=''"></p> <!-- JS because of IE support; better: placeholder="password" -->
+
+        <p><input type="submit" value="登  录"></p>
+
+      </fieldset>
+
+    </form>
+
+  </div> <!-- end login -->
+
+</body> 
+</html>
