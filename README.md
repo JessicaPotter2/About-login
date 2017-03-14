@@ -9,5 +9,13 @@ loginPage for choose
 + 虽然在运维岗位，做着不熟悉的工作，但是我愿意去学习，尽早融入新工作，所以基本上晚上加班到九点才回家，元旦在加班维护服务器，制作并测试工作流，一直到十点才回家，帝都雾霾，晚上告诉封路，只能走辅路，所以回到家都十二点多。虽然很辛苦，但是我愿意付出努力，愿意学习新的东西。
 #### 页面实现：HTML/CSS
 + <img src="https://github.com/JessicaPotter2/About-login/blob/master/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2%2001/%E6%95%B0%E6%8D%AE%E9%93%81%E7%AC%BC.png?raw=true" width="500px"/>
-#### 页面实现：HTML/CSS/Javascrippt/Jquery
-+ <img src="https://github.com/JessicaPotter2/About-login/blob/master/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2%2002/%E6%95%B0%E6%8D%AE%E9%93%81%E7%AC%BC.png?raw=true" width="500px"/>
+#### 页面实现：HTML5/CSS3/Javascrippt/Jquery
++ <img src="https://github.com/JessicaPotter2/About-login/blob/master/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2%2002/%E6%95%B0%E6%8D%AE%E9%93%81%E7%AC%BC.png?raw=true" width="400px"/>
+ <img src="https://github.com/JessicaPotter2/About-login/blob/master/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2%2003/%E6%95%B0%E6%8D%AE%E9%93%81%E7%AC%BC2.png?raw=true" width="400px"/>
+#### 页面实现：HTML/CSS/Jquery
++ <img src="https://github.com/JessicaPotter2/About-login/blob/master/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2%2002/%E6%95%B0%E6%8D%AE%E9%93%81%E7%AC%BC%20(1).png?raw=true" width="500px"/>
+#### 页面实现：HTML/CSS/Jquery
++ <img src="https://github.com/JessicaPotter2/About-login/blob/master/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2%2005/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.png?raw=true" width="500px"/>
+#### 页面实现：HTML/CSS/Jquery
++ <img src="https://github.com/JessicaPotter2/About-login/blob/master/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2%2006/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.png?raw=true" width="500px"/>
+
