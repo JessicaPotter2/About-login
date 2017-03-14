@@ -42,8 +42,6 @@ loginPage for choose
 + <img src="https://github.com/JessicaPotter2/About-login/blob/master/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A215/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.png?raw=true" width="500px"/>
 + <img src="https://github.com/JessicaPotter2/About-login/blob/master/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A215/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A22.png?raw=true" width="500px"/>
 #### 页面实现：HTML/CSS3/JQuery
-+ <img src="https://github.com/JessicaPotter2/About-login/blob/master/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A215/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.png?raw=true" width="500px"/>
-#### 页面实现：HTML/CSS3/JQuery
 + <img src="https://github.com/JessicaPotter2/About-login/blob/master/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A216/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.png?raw=true" width="500px"/>
 #### 页面实现：HTML/CSS3/JQuery
 + <img src="https://github.com/JessicaPotter2/About-login/blob/master/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A217/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.png?raw=true" width="500px"/>
